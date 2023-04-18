@@ -29,3 +29,7 @@ Please provide written explanation of your approach.
 -	Output: 0
 -	Explanation: The buyer is not a winner as the first 2 fruits form group 1, all three fruits would form group 2, but can't because it would contain all fruits of group 1.
 
+## Time and Space Complexity
+
+- **Time Complexity**  of the code is O(n*m). This is because it iterates through each element in the codeList and shoppingCart until it finds a match or reaches the end.
+- **Space Complexity** of the code is O(k) where k is the lenght of the longest sublist in the codeList.
