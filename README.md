@@ -33,3 +33,7 @@ Please provide written explanation of your approach.
 
 - **Time Complexity**  of the code is O(n*m). This is because it iterates through each element in the codeList and shoppingCart until it finds a match or reaches the end.
 - **Space Complexity** of the code is O(k) where k is the lenght of the longest sublist in the codeList.
+
+## Explenation 
+
+Given that my team and I had experience in doing similar tasks during Advent of Code this task was not that difficult. We first started by thinking about how the code should function and what all we needed to do to make it work. Instantly We knew that the for or while loop was needed to be used to iterate through the first list and another one inside that loop to iterate through the other list. That is where we started, after that we needed to check if the elements of the first list match the elements of the second list. but we had a problem here in the main function we noticed that the elements in the codeList were being saved as a single string so we decided to convert that string into a list that we can iterate through we just simply removed the first and last elements of the string and split it where we had ", ". Finally we used few variables to keep track of what part of the lists we have passed and to check if we have found all parts of the codeList in the shoppingCartList.
