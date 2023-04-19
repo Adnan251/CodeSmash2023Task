@@ -12,7 +12,7 @@ public class FooTest {
 
     @Test
     public void testIsBuyerWinner1(){
-        List<String> codeList = new ArrayList<String>(Arrays.asList(""));
+        List<String> codeList = new ArrayList<String>();
         List<String> shoppingCart1 = new ArrayList<String>(Arrays.asList("apple", "apple", "banana", "banana", "orange", "banana"));
 
         assertEquals(1, Foo.IsBuyerWinner(codeList, shoppingCart1));

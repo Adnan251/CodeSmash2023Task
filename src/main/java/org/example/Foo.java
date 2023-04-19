@@ -7,7 +7,7 @@ import java.util.List;
 public class Foo {
     public static int IsBuyerWinner(List<String> codeList, List<String> shoppingCart) {
 
-        if(codeList.isEmpty()) {
+        if(codeList.isEmpty()) { //checks if the codeList is empty
             return 1;
         }
 
