@@ -52,8 +52,8 @@ public class Foo {
     }
 
     private static List<String> convertCorrectly(String element){  //converter of string to list
-        element = element.substring(1, element.length()-1);
-        List<String> list = new ArrayList<String>(Arrays.asList(element.split(", ")));
+        element = element.trim();
+        List<String> list = new ArrayList<String>(Arrays.asList(element.split(" ")));
         return list;
     }
 }
