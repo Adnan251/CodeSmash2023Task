@@ -10,6 +10,7 @@ import static junit.framework.Assert.assertEquals;
 
 public class FooTest {
 
+
     @Test
     public void testIsBuyerWinner1(){
         List<String> codeList = new ArrayList<String>();
